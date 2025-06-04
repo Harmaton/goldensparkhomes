@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const Navigation = () => {
@@ -25,25 +26,23 @@ const Navigation = () => {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-yellow-600 transition-colors duration-200 font-medium">
+              <Link href="/" className="text-gray-700 hover:text-yellow-600 transition-colors duration-200 font-medium">
                 Home
-              </a>
-              <a href="#properties" className="text-gray-700 hover:text-yellow-600 transition-colors duration-200 font-medium">
+              </Link>
+              <Link href="/properties" className="text-gray-700 hover:text-yellow-600 transition-colors duration-200 font-medium">
                 Properties
-              </a>
-              <a href="#host" className="text-gray-700 hover:text-yellow-600 transition-colors duration-200 font-medium">
-                Meet Host
-              </a>
-              <a href="#contact" className="text-gray-700 hover:text-yellow-600 transition-colors duration-200 font-medium">
-                Contact
-              </a>
+              </Link>
+              
+              
             </div>
           </div>
 
           <div className="hidden md:block">
+            <Link href="/properties" >
             <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold">
               Book Now
             </Button>
+            </Link>
           </div>
 
           <div className="md:hidden">
