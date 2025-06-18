@@ -58,18 +58,34 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden bg-white border-t border-gray-100">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <a href="#home" className="block px-3 py-2 text-gray-700 hover:text-yellow-600 transition-colors duration-200">
+              <link
+                href="/"
+                className="block px-3 py-2 text-gray-700 hover:text-yellow-600 transition-colors duration-200"
+              >
                 Home
-              </a>
-              <a href="#properties" className="block px-3 py-2 text-gray-700 hover:text-yellow-600 transition-colors duration-200">
+              </link>
+              <link
+                href="/properties"
+                className="block px-3 py-2 text-gray-700 hover:text-yellow-600 transition-colors duration-200"
+              >
                 Properties
-              </a>
-              <a href="#host" className="block px-3 py-2 text-gray-700 hover:text-yellow-600 transition-colors duration-200">
+              </link>
+              <link
+                href="https://wa.me/254719139262"
+                
+                rel="noopener noreferrer"
+                className="block px-3 py-2 text-gray-700 hover:text-yellow-600 transition-colors duration-200"
+              >
                 Meet Host
-              </a>
-              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-yellow-600 transition-colors duration-200">
+              </link>
+              <link
+                href="https://wa.me/254719139262"
+            
+                rel="noopener noreferrer"
+                className="block px-3 py-2 text-gray-700 hover:text-yellow-600 transition-colors duration-200"
+              >
                 Contact
-              </a>
+              </link>
               <div className="px-3 py-2">
                 <Button className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold">
                   Book Now
