@@ -32,8 +32,9 @@ const Navigation = () => {
               <Link href="/properties" className="text-gray-700 hover:text-yellow-600 transition-colors duration-200 font-medium">
                 Properties
               </Link>
-              
-              
+                <Link href="/blogs" className="text-gray-700 hover:text-yellow-600 transition-colors duration-200 font-medium">
+                Blogs
+              </Link>
             </div>
           </div>
 
