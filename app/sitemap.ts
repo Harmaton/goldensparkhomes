@@ -5,20 +5,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://www.goldensparkhomes.africa/',
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+     changeFrequency: 'weekly',
       priority: 1,
     },
      {
       url: 'https://www.goldensparkhomes.africa/properties',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
     {
       url: 'https://www.goldensparkhomes.africa/properties/staybridge',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      changeFrequency: 'weekly',
+      priority: 0.9
     },
     {
       url: 'https://www.goldensparkhomes.africa/properties/sunrise-twins',
